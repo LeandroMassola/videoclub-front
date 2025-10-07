@@ -1,0 +1,18 @@
+videoclub-vivo/
+├── client/ (frontend)
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── context/
+│ │ ├── hooks/
+│ │ └── utils/
+│ └── tailwind.config.js
+│
+├── server/ (backend)
+│ ├── models/
+│ ├── routes/
+│ ├── controllers/
+│ ├── middleware/
+│ └── server.js
+│
+└── README.md
