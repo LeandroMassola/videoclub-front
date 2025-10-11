@@ -4,9 +4,72 @@
 :root {
   --darkBlue: #1e3a5f;
   --darkViolet: #512f6a;
-  --blue: 	#3f5693;
+  --blue: #3f5693;
   --violet: #842d64;
   --sand: #d2ac84;
+  --transViolet: #512f6a8e;
 }
 
 
+
+.bgWelcome {
+    filter: contrast(0.9) brightness(2) saturate(1.2);
+  mix-blend-mode: lighten ;
+
+  mask-image:
+  
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 10%,     
+      rgba(0, 0, 0, 0.6) 40%,     
+      rgba(0, 0, 0, 0.6) 60%,     
+      transparent 50%            
+    ),
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6) 40%,     
+      rgba(0, 0, 0, 0.6) 80%,     
+      rgba(0, 0, 0, 0.6) 10%,     
+      transparent 90%            
+    ),
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6) 40%,     
+      rgba(0, 0, 0, 0.6) 80%,     
+      rgba(0, 0, 0, 0.6) 10%,     
+      transparent 90%            
+    );
+
+-webkit-mask-image:
+radial-gradient(circle at center, rgba(0, 0, 0, 0.95) 0, rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.5) 70%),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0) 70%,
+      rgba(0, 0, 0) 75%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 20%,
+      rgba(0, 0, 0, 0.9) 90%,
+      rgba(0, 0, 0, 0.9) 60%,
+      transparent 100%
+    ),
+    
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6) 10%,     
+      rgba(0, 0, 0, 0.6) 90%,     
+      rgba(0, 0, 0, 0.6) 1%,     
+      transparent 100%            
+    ),
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6) 10%,     
+      rgba(0, 0, 0, 0.6) 90%,     
+      rgba(0, 0, 0, 0.6) 1%,     
+      transparent 100%            
+    );
+  mask-composite: intersect;
+  -webkit-mask-composite: destination-in;
+}
