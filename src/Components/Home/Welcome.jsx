@@ -2,7 +2,7 @@
 
 const Welcome = () => {
     return (
-        <div className="relative w-full pt-30 top-30 z-50">
+        <div className="relative flex flex-col  pt-30 top-30 z-50">
             {/*  <div className="absolute w-100 bg-contain  z-0 bg-no-repeat bg-[url('https://image.tmdb.org/t/p/original/2bPJl0xmZgUjoYVR1ImTtsxPE1C.jpg')]"></div> */}
 
             

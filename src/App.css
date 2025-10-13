@@ -8,6 +8,7 @@
   --violet: #842d64;
   --sand: #d2ac84;
   --transViolet: #512f6a8e;
+  --linearBg: linear-gradient(180deg,rgba(0, 0, 0, 1) 40%, rgba(132, 45, 100, 1) 100%);
 }
 
 

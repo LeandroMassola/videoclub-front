@@ -7,7 +7,7 @@ const Releases = ({latestMovies, setLatestMovies})=> {
     
     
     return(
-        <div>
+        <div className="p-5">
             <CardReleases latestMovies={latestMovies}/>
         </div>
         

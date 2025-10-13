@@ -4,7 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 
 const NavBar = ()=> {
     return (
-        <nav className="flex items-center justify-center pt-5 z-50 bg-transparent">
+        <nav className=" flex pt-5 z-50 bg-transparent">
             <div className="w-[33%] flex">
                 <p>LOGO</p>
             </div>

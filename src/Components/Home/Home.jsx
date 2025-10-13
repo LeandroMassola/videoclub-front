@@ -42,11 +42,11 @@ const Home = () => {
     
     return(
 
-        <div className=" relative bg-linear-to-b from-black from-0.5% to-[#512f6a]  flex flex-col font-[Courier] ">
+        <div className=" overflow-y-hidden relative bg-linear-to-b from-black from-0.5% to-[#512f6a]  flex flex-col font-[Courier]">
             <img 
-                src={changeBg} alt="welcome-image" className="bgWelcome absolute z-0 top-0 object-cover  min-h-100"
+                src={changeBg} alt="welcome-image" className="bgWelcome absolute z-0 top-0 object-cover   min-h-100"
             />
-            <NavBar/>
+            {/* <NavBar/> */}
             <Welcome/>
             <Hero/>
             <Releases latestMovies={latestMovies}/>
