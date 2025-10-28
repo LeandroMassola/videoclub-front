@@ -11,7 +11,10 @@
   --linearBg: linear-gradient(180deg,rgba(0, 0, 0, 1) 40%, rgba(132, 45, 100, 1) 100%);
 }
 
-
+body {
+  background-image: var(--linearBg);
+  background-repeat: no-repeat;
+}
 
 .bgWelcome {
     filter: contrast(0.9) brightness(2) saturate(1.2);

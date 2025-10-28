@@ -51,6 +51,7 @@ export const postRegister = async(dataForm) => {
 
             if(!response.ok) {
                 console.log("error al registrar")
+                return data
             }
             console.log("Se registro correctamente")
             
